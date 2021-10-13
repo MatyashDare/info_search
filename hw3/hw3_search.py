@@ -34,7 +34,7 @@ def count_query(query:str, corpus_matrix, doc_name):
 
 def main(query:str):
     df = pd.read_csv('./df.csv')
-    doc_name = pd.read_csv('./df.csv')['doc_name'].to_numpy()
+    doc_name = pd.read_csv('./df.csv')['answers'].to_numpy()
     ans = 'Найденные в порядке релевантности документы: ' + ', '.join(count_query(query, corpus_matrix, doc_name))
     return ans
 
