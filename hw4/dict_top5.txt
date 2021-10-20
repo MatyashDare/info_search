@@ -1,0 +1,1 @@
+{'count_vectorizer': 0.0336, 'tfidf_vectorizer': 0.0877, 'BM25': 0.0685, 'BERT': 0.0083, 'corpus_ft': 0.0022}
